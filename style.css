@@ -1,0 +1,93 @@
+/* Configuração geral do menu de navegação */
+nav {
+  background-color: #008BFF;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Estilo da lista no menu para exibição inline e formatação */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* Estilo dos links do menu para melhorar a acessibilidade e visual */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+/* Efeito de hover nos links para feedback visual */
+nav ul li a:hover {
+  background-color: #0056b3;
+  border-radius: 10px;
+}
+
+/* Estilo do cabeçalho para destacar o título da página */
+header {
+  background-color: #008BFF;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Configurações básicas do corpo do documento */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+/* Estilos para seções para centralização e alinhamento do conteúdo */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Formatação de formulários para garantir consistência visual */
+form label, form input, form textarea {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+}
+
+/* Estilo dos inputs e textareas para usabilidade */
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo dos botões para ação clara e atraente */
+button {
+  display: block;
+  width: 94%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Efeito de hover para o botão para indicar interatividade */
+button:hover {
+  background-color: #0056b3;
+  border-radius: 10px;
+}
